@@ -2,7 +2,7 @@
 
 ### 无法复用连接
 
-<img src="/Users/lujiema/Library/Application Support/typora-user-images/Screenshot 2024-12-08 at 12.26.45 AM.png" alt="Screenshot 2024-12-08 at 12.26.45 AM" style="zoom:50%;" />
+<img src="./images/Screenshot 2024-12-08 at 12.26.45 AM.png" alt="Screenshot 2024-12-08 at 12.26.45 AM" style="zoom:50%;" />
 
 HTTP1.0 为每一个请求单独开一个 TCP 连接，造成的问题：
 
@@ -16,7 +16,7 @@ HTTP1.0 为每一个请求单独开一个 TCP 连接，造成的问题：
 
 ### 队头堵塞
 
- <img src="/Users/lujiema/Documents/typora-user-images/Screenshot 2024-12-08 at 12.24.52 AM.png" alt="Screenshot 2024-12-08 at 12.24.52 AM" style="zoom:50%;" />
+ <img src="./images/Screenshot 2024-12-08 at 12.24.52 AM.png" alt="Screenshot 2024-12-08 at 12.24.52 AM" style="zoom:50%;" />
 
 
 
@@ -28,7 +28,7 @@ HTTP1.0 为每一个请求单独开一个 TCP 连接，造成的问题：
 
 ### 长连接
 
-<img src="/Users/lujiema/Documents/typora-user-images/Screenshot 2024-12-08 at 12.25.50 AM.png" alt="Screenshot 2024-12-08 at 12.25.50 AM" style="zoom:50%;" />
+<img src="./images/Screenshot 2024-12-08 at 12.25.50 AM.png" alt="Screenshot 2024-12-08 at 12.25.50 AM" style="zoom:50%;" />
 
 长连接就是多次请求响应可以共享一个 TCP，有效利用带宽。
 
@@ -45,7 +45,7 @@ HTTP1.0 为每一个请求单独开一个 TCP 连接，造成的问题：
 
 ### 管道化和队头堵塞
 
-<img src="/Users/lujiema/Documents/typora-user-images/Screenshot 2024-12-08 at 12.35.06 AM.png" alt="Screenshot 2024-12-08 at 12.35.06 AM" style="zoom:50%;" />
+<img src="./images/Screenshot 2024-12-08 at 12.35.06 AM.png" alt="Screenshot 2024-12-08 at 12.35.06 AM" style="zoom:50%;" />
 
 在 HTTP1.1 中，不需要每次重新建立连接，但是资源还是有堵塞问题。
 

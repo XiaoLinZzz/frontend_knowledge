@@ -10,7 +10,7 @@ Cross-site request forgery，跨站请求伪造。
 
 
 
-<img src="/Users/lujiema/Documents/typora-user-images/Screenshot 2025-01-06 at 8.47.33 PM.png" alt="Screenshot 2025-01-06 at 8.47.33 PM" style="zoom:50%;" />
+<img src="./images/Screenshot 2025-01-06 at 8.47.33 PM.png" alt="Screenshot 2025-01-06 at 8.47.33 PM" style="zoom:50%;" />
 
 
 

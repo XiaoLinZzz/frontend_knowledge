@@ -11,7 +11,7 @@
 
 # HTTPS 建立连接的过程
 
-<img src="/Users/lujiema/Documents/typora-user-images/Screenshot 2025-02-28 at 10.08.14 PM.png" alt="Screenshot 2025-02-28 at 10.08.14 PM" style="zoom: 33%;" />
+<img src="./images/Screenshot 2025-02-28 at 10.08.14 PM.png" alt="Screenshot 2025-02-28 at 10.08.14 PM" style="zoom: 33%;" />
 
 HTTPS 建立连接的过程 = TCP 三次握手 + TLS 四次握手
 

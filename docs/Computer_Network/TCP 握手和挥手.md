@@ -29,7 +29,7 @@
 
    
 
-<img src="/Users/lujiema/Documents/typora-user-images/Screenshot 2025-02-27 at 3.27.51 PM.png" alt="Screenshot 2025-02-27 at 3.27.51 PM" style="zoom:50%;" />
+<img src="./images/Screenshot 2025-02-27 at 3.27.51 PM.png" alt="Screenshot 2025-02-27 at 3.27.51 PM" style="zoom:50%;" />
 
 
 
