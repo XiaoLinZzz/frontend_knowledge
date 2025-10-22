@@ -4,9 +4,9 @@
 
 ## 🌐 在线访问
 
-[点击这里访问文档站点](https://xiaollinzzz.github.io/frontend_knowledge/)
+[点击这里访问文档站点](https://xiaolinzzz.github.io/frontend_knowledge/#/)
 
-> GitHub Pages 地址: https://xiaollinzzz.github.io/frontend_knowledge/
+<!-- > GitHub Pages 地址: https://xiaolinzzz.github.io/frontend_knowledge/#/ -->
 
 ## ✨ 特性
 
