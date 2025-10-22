@@ -4,9 +4,9 @@
 
 ## 🌐 在线访问
 
-[点击这里访问文档站点](https://your-username.github.io/frontend_knowledge/)
+[点击这里访问文档站点](https://xiaollinzzz.github.io/frontend_knowledge/)
 
-> 部署完成后，将上面的链接替换为你的实际 GitHub Pages 地址
+> GitHub Pages 地址: https://xiaollinzzz.github.io/frontend_knowledge/
 
 ## ✨ 特性
 
