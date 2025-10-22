@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
+    />
+    <style>
+      /* 侧边栏样式优化 */
+      .sidebar {
+        padding-left: 20px;
+      }
+
+      .sidebar > h1 {
+        margin-left: 0;
+      }
+
+      .sidebar ul {
+        padding-left: 0;
+      }
+
+      .sidebar ul li {
+        margin-left: 0;
+      }
+
+      .sidebar-nav > ul > li {
+        margin: 8px 0;
+      }
+
+      /* 让侧边栏看起来更舒适 */
+      .sidebar-nav {
+        padding: 0 20px 20px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+        name: "frontend notes",
+        repo: "", // 如果有 GitHub 仓库可以填写，例如: "https://github.com/yourname/repo"
+        loadSidebar: true,
+        subMaxLevel: 0, // 侧边栏不显示页面标题
+        maxLevel: 4, // 主内容区域显示的标题层级
+        auto2top: true, // 切换页面后自动跳转到页面顶部
+        coverpage: false,
+
+        // 搜索配置
+        search: {
+          maxAge: 86400000,
+          paths: "auto",
+          placeholder: "🔍 搜索",
+          noData: "😢 没有找到结果",
+          depth: 4,
+          hideOtherSidebarContent: false,
+        },
+
+        // 字数统计
+        count: {
+          countable: true,
+          fontsize: "0.9em",
+          color: "rgb(90,90,90)",
+          language: "chinese",
+        },
+
+        // 分页导航
+        pagination: {
+          previousText: "上一篇",
+          nextText: "下一篇",
+          crossChapter: true,
+          crossChapterText: true,
+        },
+
+        // 代码复制
+        copyCode: {
+          buttonText: "📋 复制",
+          errorText: "❌ 错误",
+          successText: "✅ 已复制",
+        },
+
+        // 进度条
+        progress: {
+          position: "top",
+          color: "var(--theme-color,#42b983)",
+          height: "3px",
+        },
+
+        // 标签页标题
+        tabs: {
+          persist: true,
+          sync: true,
+          theme: "classic",
+          tabComments: true,
+          tabHeadings: true,
+        },
+      };
+    </script>
+    <!-- Docsify v4 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+    <!-- 搜索插件 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
+    <!-- 代码复制插件 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+
+    <!-- 分页导航插件 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+    <!-- 字数统计插件 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
+
+    <!-- 进度条插件 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
+
+    <!-- emoji 插件 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+
+    <!-- 外链脚本 - External Script -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+
+    <!-- 图片缩放插件 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+
+    <!-- 代码高亮 -->
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-javascript.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-typescript.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-css.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
+  </body>
+</html>
